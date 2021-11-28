@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="mobile_style.css">
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>$(function () {$('[data-toggle="popover"]').popover()})</script>
+
+<title>Bedrock Edition</title>
+</head>
+<body data-spy="scroll" data-target="#website-navbar" data-offset="100">
+    <nav id="website-navbar" class="navbar navbar-expand-md navbar-light bg-white sticky-top">
+        <a class="navbar-brand">
+            <img src="assets/mc_logo.jfif" height="40px" width="40px">
+            Minecraft
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-target"><span class="navbar-toggler-icon"></span></button>
+        <div id="navbar-target"  class="navbar-content collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.HTML"> Home Page </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.HTML#purpose"> Purpose </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="je.HTML"> Java Edition </a>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link" href="#" data-toggle="dropdown"> Others </a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="pe.HTML"> Pocket Edition </a>
+                        <a class="dropdown-item active" href="be.HTML"> Bedrock Edition </a>
+                        <a class="dropdown-item" href="index.HTML #game-modes"> Game Modes </a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link payment-options" href="#" data-toggle="modal" data-target="#payment-modal"> Cost </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fa fa-shopping-bag" href="#" data-toggle="modal" data-target="#payment-modal"></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="intro container">
+        <h2>Introduction</h2>
+        <br>
+        <p>Bedrock Edition refers to the multi-platform versions of Minecraft developed by Mojang Studios, Xbox Game Studios, and SkyBox Labs and based on the Java edition code. It is simpler with less features compared to the original but can be played on both PC and iOS. In addition to this, it is cheaper and allows cross-play between users.</p>
+    </div>
+    <div class="controls container">
+        <table>
+            <tbody class="controls">
+                <h2>Controls</h2>
+                <br>
+                <p>The controls are similar to that of Java Edition and Pocket Edition, depending on which platform you are playing on.</p>
+            </tbody>
+        </table>
+    </div>
+    <div class="modal-div">
+        <div class="modal fade" id="payment-modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5>
+                            Minecraft currently costs:
+                        </h5>
+                    </div>
+                    <div class="modal-body">
+                        <button type="button" class="btn btn-primary"> Java Edition: S$36.35 </button>
+                        <button type="button" class="btn btn-danger"> Bedrock Edition: S$26.96 </button>
+                        <button type="button" class="btn btn-warning"> Pocket Edition: S$9.43 </button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal"> Close </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
