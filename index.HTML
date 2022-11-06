@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="mobile_style.css">
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>$(function () {$('[data-toggle="popover"]').popover()})</script>
+
+<title>Home Page</title>
+</head>
+<body data-spy="scroll" data-target="#website-navbar" data-offset="100">
+    <nav id="website-navbar" class="navbar navbar-expand-md navbar-light bg-white sticky-top">
+        <a class="navbar-brand">
+            <img src="assets/mc_logo.jfif" height="40px" width="40px">
+            Minecraft
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-target"><span class="navbar-toggler-icon"></span></button>
+        <div id="navbar-target"  class="navbar-content collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.HTML"> Home Page </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#purpose"> Purpose </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="je.HTML"> Java Edition </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" data-toggle="dropdown"> Others </a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="pe.HTML"> Pocket Edition </a>
+                        <a class="dropdown-item" href="be.HTML"> Bedrock Edition </a>
+                        <a class="dropdown-item" href="#game-modes"> Game Modes </a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link payment-options" href="#" data-toggle="modal" data-target="#payment-modal"> Cost </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fa fa-shopping-bag" href="#" data-toggle="modal" data-target="#payment-modal"></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row m-3" id="title-text">
+            <div class="col-md-12">
+                <br>
+                <!-- Title Jumbotron -->
+                <div class="jumbotron">
+                    <div class="row">
+                        <div class="col pt-5">
+                            <h1 class="display-4"> Welcome to the guide to<span class="badge badge-success"> Minecraft </span></h1>
+                            <h4> A sandbox game for creativity</h4>
+                        </div>
+                        <div class="col-3">
+                            <img src="assets/mc_logo.jfif" height=200px>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-div">
+            <div class="modal fade" id="payment-modal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5>
+                                Minecraft currently costs:
+                            </h5>
+                        </div>
+                        <div class="modal-body">
+                            <button type="button" class="btn btn-primary"> Java Edition: S$36.35 </button>
+                            <button type="button" class="btn btn-danger"> Bedrock Edition: S$26.96 </button>
+                            <button type="button" class="btn btn-warning"> Pocket Edition: S$9.43 </button>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal"> Close </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="main-picture">
+            <div class="col-md-12">
+                <div class="alert alert-info alert-dismissible fade show">
+                    <button type="button" class="close" data-dismiss="alert"> &times; </button>
+                    This site was created by (name).
+                </div>
+
+                <div id="purpose" class="carousel slide" data-ride="carousel">
+
+                    <!-- Carosel Items -->
+                    <div class="carousel-inner center">
+                        <div class="carousel-item active">
+                            <img src="assets/mc_overworld.jpg" height=720px width=1280 class="img-fluid">
+                            <div class="carousel-caption">
+                                <h1> Overworld </h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/mc_nether.jpg" class="img-fluid">
+                            <div class="carousel-caption">
+                                <h1> Nether </h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/mc_end.jpg" class="img-fluid">
+                            <div class="carousel-caption">
+                                <h1> The End </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carousel Controls -->
+                    <a class="carousel-control-prev" href="#purpose" data-slide="prev">
+                        <span class="fa fa-chevron-left"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#purpose" data-slide="next">
+                        <span class="fa fa-chevron-right"></span>
+                    </a>
+                    <!-- Carousel Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#purpose" data-slide-to="0" class="active"></li>
+                        <li data-target="#purpose" data-slide-to="1"></li>
+                        <li data-target="#purpose" data-slide-to="2"></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="row py-3" id="game-modes">
+            <div class="col-md-12">
+                <h1><span class="badge badge-info"> Game Modes </span></h1>
+                <table class="table table-boarderless">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th> No. </th>
+                            <th class="w-50"> Modes </th>
+                            <th> Description </th>
+                        </tr>
+                    </thead>
+                    <tbody class="game_modes">
+                        <tr>
+                            <td> 1. </td>
+                            <td>
+                                <a href="#game-modes" data-toggle="popover" data-container="body" data-content="Java, Bedrock and Pocket Edition" data-placement="right" title="Survival" data-trigger="hover"> Survival </a>
+                            </td>
+                            <td> Players must collect resources, build structures while surviving in their generated world. You can interact with the local villagers, and at night defend against mobs that attack on sight. </td>
+                        </tr>
+                        <tr>
+                            <td> 2. </td>
+                            <td>
+                                <a href="#game-modes" data-toggle="popover" data-container="body" data-content="Java Edition Only" data-placement="right" title="Hardcore" data-trigger="hover"> Hardcore </a>
+                            </td>
+                            <td> A survival mode variant that is locked to the hardest setting and has permadeath. Once dead, players would be banned from the world/server. </td>
+                        </tr>
+                        <tr>
+                            <td> 3. </td>
+                            <td>
+                                <a href="#game-modes" data-toggle="popover" data-container="body" data-content="Java, Bedrock and Pocket Edition" data-placement="right" title="Creative" data-trigger="hover"> Creative </a>
+                            </td>
+                            <td> Strips away the survival aspects of Minecraft and allows players to fly and easily create, destroy and have infinite access to all blocks. Mobs are also not affected by your presence. </td>
+                        </tr>
+                        <tr>
+                            <td> 4. </td>
+                            <td>
+                                <a href="#game-modes" data-toggle="popover" data-container="body" data-content="Java Edition Only" data-placement="right" title="Spectator" data-trigger="hover"> Spectator </a>
+                            </td>
+                            <td> Allows players to fly through blocks and watch gameplay without directly interacting. Players are invisible and do not have an inventory, but can teleport to other players. </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+    

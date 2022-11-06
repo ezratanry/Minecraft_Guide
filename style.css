@@ -1,0 +1,37 @@
+.fa {
+    font-size: 30px;
+}
+button {
+    margin: 10px;
+}
+.nav-item .payment-options {
+    display: none;
+}
+.nav-item .fa-shopping-bag {
+    display: block;
+}
+body {
+    background-image: url(assets/mc_bg.PNG);
+    background-size: cover;
+}
+.active {
+    font-weight: bold;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img .img-fluid {
+    width: 1024px;
+    height: 576px;
+}
+.controls, .intro {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    background-color: white;
+}
+.game_modes {
+    background-color: white;
+}
